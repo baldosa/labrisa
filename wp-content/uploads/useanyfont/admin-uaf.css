@@ -1,0 +1,12 @@
+				@font-face {
+					font-family: 'cumulus';
+					src: url('/wp-content/uploads/useanyfont/8125Cumulus.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/8125Cumulus.woff') format('woff');
+						  font-display: auto;
+				}
+
+				.cumulus{font-family: 'cumulus' !important;}
+
+				.et_gf_cumulus{background:none !important;font-family:cumulus;text-indent:0 !important;font-size:25px;}
+
+		

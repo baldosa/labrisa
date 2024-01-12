@@ -1,0 +1,43 @@
+				@font-face {
+					font-family: 'cumulus';
+					src: url('/wp-content/uploads/useanyfont/8125Cumulus.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/8125Cumulus.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.cumulus{font-family: 'cumulus' !important;}
+
+						h1, .site-title{
+					font-family: 'cumulus' !important;
+				}
+						.custom-logo-text{
+					font-family: 'cumulus' !important;
+				}
+						.menu-item{
+					font-family: 'cumulus' !important;
+				}
+						.menu-main-menu-container li a, .menu-main-menu-container li span, #menu-main-menu li a, #menu-main-menu li span, .menu-item a{
+					font-family: 'cumulus' !important;
+				}
+						h1, h2, h3, h4, h5, h6, .entry-title, .widget-title, .site-title, .site-description, .uagb-forms-name-label{
+					font-family: 'cumulus' !important;
+				}
+						.uagb-forms-email-label{
+					font-family: 'cumulus' !important;
+				}
+						.uagb-forms-textarea-label{
+					font-family: 'cumulus' !important;
+				}
+						.wpforms-label-hide{
+					font-family: 'cumulus' !important;
+				}
+						.has-large-font-size{
+					font-family: 'cumulus' !important;
+				}
+						.wpforms-field-sublabel{
+					font-family: 'cumulus' !important;
+				}
+						.wpforms-submit{
+					font-family: 'cumulus' !important;
+				}
+		
