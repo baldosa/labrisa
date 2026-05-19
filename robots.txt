@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-
-Sitemap: https://baldosa.github.io/labrisa/sitemap.xml
-Sitemap: https://baldosa.github.io/labrisa/sitemap.rss

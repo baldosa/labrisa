@@ -1,0 +1,25 @@
+{
+  "name": "labrisa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baldosa/labrisa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/baldosa/labrisa/issues"
+  },
+  "homepage": "https://github.com/baldosa/labrisa#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}

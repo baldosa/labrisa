@@ -1,0 +1,57 @@
+---
+layout: layouts/base.njk
+title: Contacto
+description: "Reservá tu estadía en La Brisa de Playa Grande, Mar del Plata. Escribinos a labrisa259@gmail.com o completá el formulario."
+permalink: /contacto/
+---
+
+<div class="page-header">
+  <h1>Contacto</h1>
+  <p>Reservas y consultas</p>
+</div>
+
+<section class="section contact">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <h2>¿Hablamos?</h2>
+        <p>Completá el formulario o escribinos directamente. Respondemos en menos de 24 horas.</p>
+        <p>📧 <a href="mailto:labrisa259@gmail.com">labrisa259@gmail.com</a></p>
+        <p>📍 Mar del Plata, Buenos Aires, Argentina</p>
+        <p>🏖 A 600 metros de Playa Grande</p>
+      </div>
+
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xayrnqwj
+        " method="POST">
+          <div class="form-group">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="tu@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="motivo">Motivo</label>
+            <select id="motivo" name="motivo">
+              <option value="">Seleccioná una opción</option>
+              <option>Consulta de disponibilidad</option>
+              <option>Reserva</option>
+              <option>Información general</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje" required placeholder="¿En qué fechas te interesa? ¿Cuántas personas serían?"></textarea>
+          </div>
+          <button type="submit" class="btn" style="width:100%">Enviar mensaje</button>
+          <p class="form-note">También podés escribirnos directamente a <a href="mailto:labrisa259@gmail.com">labrisa259@gmail.com</a></p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
