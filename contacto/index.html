@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto — La Brisa de Playa Grande</title>
+  <meta name="description" content="Reservá tu estadía en La Brisa de Playa Grande, Mar del Plata. Escribinos a labrisa259@gmail.com o completá el formulario." />
+  <meta property="og:site_name" content="La Brisa de Playa Grande" />
+  <meta property="og:title" content="Contacto" />
+  <meta property="og:description" content="Reservá tu estadía en La Brisa de Playa Grande, Mar del Plata. Escribinos a labrisa259@gmail.com o completá el formulario." />
+  <meta property="og:url" content="https://www.labrisa.com.ar/contacto/" />
+  
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">La Brisa</a>
+    <button class="nav-toggle" aria-label="Menú" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="/" >Inicio</a></li>
+      <li><a href="/about/" >El espacio</a></li>
+      <li><a href="/contacto/" class="active">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="page-header">
+  <h1>Contacto</h1>
+  <p>Reservas y consultas</p>
+</div>
+
+<section class="section contact">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <h2>¿Hablamos?</h2>
+        <p>Completá el formulario o escribinos directamente. Respondemos en menos de 24 horas.</p>
+        <p>📧 <a href="mailto:labrisa259@gmail.com">labrisa259@gmail.com</a></p>
+        <p>📍 Mar del Plata, Buenos Aires, Argentina</p>
+        <p>🏖 A 600 metros de Playa Grande</p>
+      </div>
+
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xayrnqwj
+        " method="POST">
+          <div class="form-group">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="tu@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="motivo">Motivo</label>
+            <select id="motivo" name="motivo">
+              <option value="">Seleccioná una opción</option>
+              <option>Consulta de disponibilidad</option>
+              <option>Reserva</option>
+              <option>Información general</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje" required placeholder="¿En qué fechas te interesa? ¿Cuántas personas serían?"></textarea>
+          </div>
+          <button type="submit" class="btn" style="width:100%">Enviar mensaje</button>
+          <p class="form-note">También podés escribirnos directamente a <a href="mailto:labrisa259@gmail.com">labrisa259@gmail.com</a></p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer class="site-footer">
+  <p>&copy; La Brisa de Playa Grande · <a href="mailto:labrisa259@gmail.com">labrisa259@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
